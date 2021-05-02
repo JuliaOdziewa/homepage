@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(240, 238, 238);
+    font-family: 'Poppins', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

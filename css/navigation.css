@@ -1,0 +1,24 @@
+.navigation {
+    background-color: rgba(156, 33, 74, 0.973);
+    padding: 15px;
+}
+
+.navigation__link {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.navigation__link:hover {
+    color: black;
+}
+
+.navigation__link:active {
+    color: black;
+    font-weight: 700;
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding-left: 0;
+}

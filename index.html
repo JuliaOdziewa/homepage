@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia Odziewa</title>
+    <link rel="stylesheet" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/link.css">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <main>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li><a class="navigation__link" href="#O mnie">O mnie</a></li>
+                <li><a class="navigation__link" href="#Zainteresowania">Zainteresowania</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1 class="header">Julia Odziewa</h1>
+        </header>
+        <img class="image" width="200" height="150" src="https://i.ibb.co/10CWDPD/webcam-toy-foto1.jpg"
+            alt="Julia Odziewa">
+        <section class="section" id="O-mnie">
+            <h2 class="header">O mnie</h2>
+            <p>Nazywam się <strong>Julia Odziewa</strong>. Mam prawie <strong>18</strong> lat.
+                Chodzę do drugiej klasy liceum na profil <b>matematyczno-fizyczny</b>.
+                Od 7 lat uczę się języka niemieckiego. Moim mottem życiowym jest
+                <i class="section--important">Egal was kommt es wird gut sowieso</i>
+            </p>
+        </section>
+        <section class="section" id="Zainteresowania">
+            <h2 class="header">Zainteresowania</h2>
+            <p> Jestem wielką fanką bollywoodzkich filmów. <br>Szczególnie tych, w których
+                występuje ShahRukhKhan
+                Słucham <em>praktycznie tylko</em> niemieckich piosenek, a moim ulubionym artystą jest
+                <a class="section__link" target="_blank" rel="noreferrer noopener" title="Mark Forster - Wikipedia"
+                    href="https://pl.wikipedia.org/wiki/Mark_Forster"><b>Mark
+                        Forster</b><span class="section__linkInfo">(otworzy się w nowej karcie)</span></a>.
+            </p>
+            <p>Jeśli chcesz wiedzieć jakie są moje ulubione piosenki, kliknij w przycisk 😀.</p>
+            <button class="displayTableButton">Pokaż ulubione piosenki</button>
+            <div class="table__container">
+                <table class="table table--hidden">
+                    <caption class="table__caption">Moje ulubione piosenki</caption>
+                    <thead>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                            <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                            <th class="table__cell table__cell--header" scope="col">Album</th>
+                            <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" rowspan="3" scope="row">Mark Forster</td>
+                            <td class="table__cell"><a class="table__link" target="_blank" rel="noreferrer noopener"
+                                    title="Mark Forster - 747"
+                                    href="https://www.youtube.com/watch?v=_oDO2sTlcRo">747<span
+                                        class="table__linkInfo">(otworzy się w nowej karcie)</span></a></td>
+                            <td class="table__cell">Liebe</td>
+                            <td class="table__cell">2018</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell"><a class="table__link" target="_blank" rel="noreferrer noopener"
+                                    title="Mark Forster - Kogong"
+                                    href="https://www.youtube.com/watch?v=7h7ntYLLrfQ">Kogong<span
+                                        class="table__linkInfo">(otworzy się w nowej karcie)</span></a></td>
+                            <td class="table__cell">Tape</td>
+                            <td class="table__cell">2016/2017</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell"><a class="table__link" target="_blank" rel="noreferrer noopener"
+                                    title="Mark Forster - Oh love" href="https://www.youtube.com/watch?v=hjPRmpymaH8">Oh
+                                    love<span class="table__linkInfo">(otworzy się w nowej karcie)</span></a></td>
+                            <td class="table__cell">Karton</td>
+                            <td class="table__cell">2014</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">Wincent Weiss</td>
+                            <td class="table__cell"><a class="table__link" target="_blank" rel="noreferrer noopener"
+                                    title="Wincent Weiss - Warum"
+                                    href="https://www.youtube.com/watch?v=3vxaLWDFjCE">Warum<span
+                                        class="table__linkInfo">(otworzy się w nowej karcie)</span></a></td>
+                            <td class="table__cell">Irgendwie anders</td>
+                            <td class="table__cell">2019</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row" rowspan="2">Max Giesinger</a></td>
+                            <td class="table__cell"><a class="table__link" target="_blank" rel="noreferrer noopener"
+                                    title="Max Giesinger - Zuhause"
+                                    href="https://www.youtube.com/watch?v=wvFwEdmNC_E">Zuhause<span
+                                        class="table__linkInfo">(otworzy się w nowej karcie)</span></a></td>
+                            <td class="table__cell">Die Reise</td>
+                            <td class="table__cell">2019</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell"><a class="table__link" target="_blank" rel="noreferrer noopener"
+                                    title="Max Giesinger - 80 Milionen"
+                                    href="https://www.youtube.com/watch?v=uC08L4xxjNM">80 Milionen<span
+                                        class="table__linkInfo">(otworzy się w nowej karcie)</span></a></td>
+                            <td class="table__cell">Der Junge, der rennt</td>
+                            <td class="table__cell">2016</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Created by Julia Odziewa</footer>
+
+
+</body>
+
+</html>

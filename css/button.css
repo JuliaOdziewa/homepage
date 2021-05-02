@@ -1,0 +1,12 @@
+.displayTableButton {
+    font-family: 'Poppins', 'sans serif';
+    padding: 10px;
+    color: rgb(182, 39, 87);
+    border-style: none;
+    background-color: rgb(197, 197, 197);
+}
+
+.displayTableButton:hover {
+    background-color: rgba(156, 33, 74, 0.973);
+    color: white;
+}
