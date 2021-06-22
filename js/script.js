@@ -1,13 +1,24 @@
-console.log("Pozdrawiam każdego kto tu zajrzał :)");
+{
+    const welcome = () => {
+        console.log("Pozdrawiam każdego kto tu zajrzał :)");
+    }
 
-let displayTableButton = document.querySelector(".displayTableButton");
+    const displayTableButton = document.querySelector(".displayTableButton");
 
-let table = document.querySelector(".table");
+    const onDisplayTableClick = () => {
 
-displayTableButton.addEventListener("click",
-    () => {
+        const table = document.querySelector(".table");
         table.classList.toggle("table--hidden");
         displayTableButton.innerText =
             table.classList.contains("table--hidden") ? "Pokaż ulubione piosenki" : "Ukryj ulubione piosenki";
-    });
+    };
 
+
+    welcome();
+
+
+
+    displayTableButton.addEventListener("click", onDisplayTableClick);
+
+
+}
